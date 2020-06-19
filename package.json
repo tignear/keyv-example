@@ -1,0 +1,16 @@
+{
+  "name": "keyv",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@keyv/postgres": "^1.0.16",
+    "keyv": "^4.0.1"
+  },
+  "scripts": {
+    "main":"node index.js",
+    "preinstall": "echo preinstall&&npx npm-force-resolutions"
+
+  }
+
+}
