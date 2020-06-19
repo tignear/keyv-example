@@ -9,8 +9,7 @@
   },
   "scripts": {
     "main": "node index.js",
-    "preinstall": "npx npm-force-resolutions",
-    "postinstall": "npm ls"
+    "preinstall": "npx npm-force-resolutions"
   },
   "resolutions": {
     "pg":"^8.1"
