@@ -8,9 +8,7 @@
     "keyv": "^4.0.1"
   },
   "scripts": {
-    "start": "node index.js",
-    "preinstall": "npx npm-force-resolutions",
-    "postinstall": "npm ls||exit 0"
+    "start": "node index.js"
   },
   "resolutions": {
     "pg": "^8.1",
