@@ -8,9 +8,11 @@
     "keyv": "^4.0.1"
   },
   "scripts": {
-    "main":"node index.js",
-    "preinstall": "echo preinstall&&npx npm-force-resolutions"
-
-  }
-
+    "main": "node index.js",
+    "preinstall": "npx npm-force-resolutions"
+  },
+  "devDependencies": {},
+  "keywords": [],
+  "author": "",
+  "description": ""
 }
