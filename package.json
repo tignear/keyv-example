@@ -11,6 +11,9 @@
     "main": "node index.js",
     "preinstall": "npx npm-force-resolutions"
   },
+  "resolutions": {
+    "pg":"^8.1"
+  },
   "devDependencies": {},
   "keywords": [],
   "author": "",
