@@ -1,5 +1,5 @@
 {
-  "name": "keyv",
+  "name": "keyv_exaqmple",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
@@ -9,11 +9,12 @@
   },
   "scripts": {
     "start": "node index.js",
-    "preinstall": "npx npm-force-resolutions"
+    "preinstall": "npx npm-force-resolutions",
+    "postinstall": "npm ls||exit 0"
   },
   "resolutions": {
-    "pg":"^8.1"
-
+    "pg": "^8.1",
+    "pg-types": "^2.1.0"
   },
   "devDependencies": {},
   "keywords": [],
