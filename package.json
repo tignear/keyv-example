@@ -8,7 +8,7 @@
     "keyv": "^4.0.1"
   },
   "scripts": {
-    "main": "node index.js",
+    "start": "node index.js",
     "preinstall": "npx npm-force-resolutions"
   },
   "resolutions": {
