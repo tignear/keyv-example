@@ -4,16 +4,13 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
-    "@keyv/postgres": "^1.0.16",
+    "@keyv/postgres": "tignear/keyv-postgres#master",
     "keyv": "^4.0.1"
   },
   "scripts": {
     "start": "node index.js"
   },
-  "resolutions": {
-    "pg": "^8.1",
-    "pg-types": "^2.1.0"
-  },
+
   "devDependencies": {},
   "keywords": [],
   "author": "",
